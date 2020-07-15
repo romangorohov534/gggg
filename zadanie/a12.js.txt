@@ -1,0 +1,5 @@
+var str1 = "increment";
+str2 = str1.slice(0,1)
+str2 = str2.toUpperCase();
+str3=str2+str1.substring(1);
+alert(str3);
