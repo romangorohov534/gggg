@@ -1,0 +1,54 @@
+html {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+  body {
+    font-family: Arial;
+    background-size: 1920px 1080px;
+    background-color:#2198ed;
+    background-repeat:no-repeat;
+    background-position: center;
+    margin:0 auto;
+  }
+  .radio_buttons_container {
+    padding-left: 20px;
+    font-size: 25px;
+  }
+  .input_checkbox{
+    padding-left: 20px;
+    font-size: 25px;
+  }
+  .box div{display:inline-block;}
+  #container {
+    height: 750px;
+    width: 450px;
+    margin: 35px auto;
+    color: white;
+    background:#6525cc;
+  }
+  p {
+    padding-left: 15px;
+    font-size: 30px;
+    color: white;
+    background:#000000;
+  }
+  #calculate {
+    display: block;
+    margin: 15px auto;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 90;
+    border-radius: 5px;
+    background: linear-gradient( #000000, #ff002b);
+  }
+  #calculate:hover {
+    background: linear-gradient( #ff0000, #000000);
+  }
+  #expense{
+    padding-left: 280px;
+    font-size: 30px;
+  }
+  #expense small {
+    font-size: 30px;
+  }

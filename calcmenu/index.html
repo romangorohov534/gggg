@@ -1,0 +1,54 @@
+﻿﻿<!DOCTYPE html>
+<html lang="rus">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+	<title>Chine Calculator Menu</title>
+        <body>
+            <div id="container">
+        <form id="form">
+            <p>Размер</p>
+            <div class = "radio_buttons_container">
+                <input type="radio" name="size" id="small" value ="small" checked>
+                <label for="small">Маленький</label> <br>
+                <input type="radio" name="size" id="large" value ="large">
+                <label for="large">Большой</label>
+            </div>
+            <p>Основа</p>
+            <div class= "radio_buttons_container">
+                <input type="radio" name="base" id="rice" value ="rice" checked>
+                <label for="rice">Рис</label> <br>
+                <input type="radio" name="base" id="noodles" value ="noodles">
+                <label for="noodles">Лапша</label>
+            </div> 
+            <p>Начинка</p>
+            <div class ="box">
+                <div class = "input_checkbox">
+                    <input type="checkbox" name="add" id="pig" value ="pig" checked>
+                    <label for=" pig">Свинина</label> <br>
+                    <input type="checkbox" name="add" id="meet" value ="meet">
+                    <label for="meet">Говядина</label> 
+                </div> 
+                <div class = "input_checkbox">
+                    <input type="checkbox" name="add" id="chicken" value ="chicken">
+                    <label for="chicken">Курица</label> <br>
+                    <input type="checkbox" name="add" id="vegetables" value ="vegetables">
+                    <label for="vegetables">Овощи</label>
+                </div>
+            </div>
+            <p>С чем</p>
+            <div class="input_checkbox">  
+                <input type="checkbox" name="add" id="seeds" value="seeds">Зёрна<br>
+                <input type="checkbox" name="add" id ="sauce" value="sauce">Соус      
+            </div>
+         <input type="submit" id = "calculate" value="Подсчитать">
+        </form>
+        <div id="expense">
+            <span id="prise">0.00</span> $<br>
+      <span id="calories">0</span><small> Ккал</small>
+    </div>
+    <script src="jss.js"></script>
+</div>
+</body>
+</html>
