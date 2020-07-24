@@ -1,0 +1,51 @@
+<DOCTYPE html!>
+
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "Stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+    <!— <link rel = "shortcut icon" href="assets/favicon.ico"> 
+    </head>
+    
+    <body>
+    
+    <div id = "todo">
+    <h1> My awesome todo <i id="pencil" class="fas fa-pencil-alt"></i> </h1>
+    
+    <input type = "text" placeholder="Type your task">
+    
+    <ul class="todos">
+    <li><span><i class="fas fa-trash-alt"></i></span>Feed the cat ^_^</li>
+    </ul>
+    
+    <div id= "buttons">
+    <button class="save">Save</button>
+    <button class="clear">Clear</button>
+    <button class="tipBtn">Tips</button>
+    <button class="catsBtn">Cats</button>
+    </div>
+    </div>
+    
+    <div id = "overlay">
+    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <ul class="tips">
+    <li>Нажмите на иконку ручки, чтобы скрыть или показать зону ввода</li>
+    <li>Введите текст в зону ввода и нажмите enter</li>
+    <li>Нажмите на иконку мусорной корзины, чтобы удалить заметку</li>
+    <li>Нажмите на кнопку clear,чтобы очистить все заметки</li>
+    <li>Нажмите на кнопку Save, чтобы сохранить заметки даже после выхода из браузера </li>
+    </ul>
+    </div>
+    <div id = "overlaycatfacts">
+        <a href="javascript:void(0)" class="closecatbtn">&times;</a>
+        <ul class="tips cat-facts">
+         </ul>
+
+     </div>
+    <script type = "module"src="main.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    </body>
